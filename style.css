@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f2937;
+  font-family: "Inter", sans-serif;
+}
+
+.invoice__card {
+  margin-top: 50px;
+  border: solid #fff 3px;
+  border-radius: 10px;
+  background-color: #1f2937;
+  width: 400px;
+}
+
+.main__heading {
+  background-color: #3a69d2;
+  color: #fff;
+  text-align: center;
+}
+
+.invoice__card__heading {
+  background-color: #3a69d2;
+  padding: 20px 50px;
+  border-radius: 7px 7px 0 0;
+  border-bottom: solid #fff 3px;
+}
+
+.heading__p {
+  color: #fff;
+  text-align: center;
+}
+
+.button__section {
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.btn__style {
+  padding: 10px;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #4a4e74;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 5px;
+}
