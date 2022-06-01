@@ -2,7 +2,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1f2937;
+  background-color: #00008b;
   font-family: "Inter", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
   border: solid #fff 3px;
   border-radius: 10px;
   background-color: #1f2937;
-  width: 400px;
+  width: 550px;
 }
 
 .main__heading {
@@ -34,7 +34,7 @@ body {
 
 .button__section {
   margin-top: 35px;
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 .btn__style {
@@ -45,4 +45,67 @@ body {
   border-radius: 6px;
   font-size: 18px;
   margin: 5px;
+}
+
+.task__heading {
+  color: #fff;
+  font-size: 22px;
+  margin: 25px;
+}
+
+.task {
+  color: #fff;
+  font-size: 22px;
+  margin: 10px 10px;
+}
+
+.task__cost {
+  color: #fff;
+  font-size: 22px;
+  margin: 10px 30px 10px 10px;
+}
+
+.task__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note__p {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.btn__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn__style__send {
+  padding: 10px;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #4a4e74;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 5px;
+  width: 500px;
+}
+
+.notes__line {
+  margin-top: 35px;
+  border-top: solid #fff 3px;
+}
+
+.heading__title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.total__section {
+  display: flex;
+  justify-content: space-between;
 }
