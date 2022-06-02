@@ -20,9 +20,9 @@
         <p class="heading__p">Thanks for choosing Ben's App</p>
       </div>
       <div class="button__section">
-        <button class="btn__style">Wash Car £10</button>
-        <button class="btn__style">Mow Lawn £20</button>
-        <button class="btn__style">Pull weeeds £30</button>
+        <button class="btn__style" id="car_btn">Wash Car £10</button>
+        <button class="btn__style" id="mow_btn">Mow Lawn £20</button>
+        <button class="btn__style" id="pull_btn">Pull weeeds £30</button>
       </div>
       <div>
         <div class="heading__title">
@@ -30,16 +30,16 @@
           <h6 class="task__heading">Total</h6>
         </div>
         <div class="heading__title">
-          <h6 class="task">Car wash</h6>
-          <h6 class="task__cost">£10</h6>
+          <h6 class="task" id="task_carwash"></h6>
+          <h6 class="task__cost" id="task_carwash_cost"></h6>
         </div>
         <div class="heading__title">
-          <h6 class="task">Mow lawn</h6>
-          <h6 class="task__cost">£20</h6>
+          <h6 class="task" id="task_mow_lawn"></h6>
+          <h6 class="task__cost" id="task_mow_lawn_cost"></h6>
         </div>
         <div class="heading__title">
-          <h6 class="task">Pull Weeds</h6>
-          <h6 class="task__cost">£30</h6>
+          <h6 class="task" id="task_pullweeds"></h6>
+          <h6 class="task__cost" id="pullweeds_cost"></h6>
         </div>
 
         <div class="notes__line">
@@ -48,10 +48,12 @@
         </div>
         <div class="total__section">
           <h6 class="task__heading">Total Amount</h6>
-          <h2 class="task__heading">£60</h2>
+          <h2 class="task__heading" id="invoice_result"></h2>
         </div>
         <div class="btn__center">
-          <button class="btn__style__send">Send Invoice</button>
+          <button class="btn__style__send" id="total_invoice">
+            Total Invoice
+          </button>
         </div>
       </div>
     </div>
