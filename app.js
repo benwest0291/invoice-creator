@@ -20,19 +20,20 @@ let sum = 0;
 
 carBtn.addEventListener("click", function () {
   taskCarWash.textContent = "Wash car";
-  taskCarWashCost.textContent = 10;
+  taskCarWashCost.textContent = "£10";
   totalCost.push(10);
+  console.log(totalCost);
 });
 
 mowBtn.addEventListener("click", function () {
   taskMowLawn.textContent = "Mow lawn";
-  taskMowLawnCost.textContent = 20;
+  taskMowLawnCost.textContent = "£20";
   totalCost.push(20);
 });
 
 pullBtn.addEventListener("click", function () {
   taskPullWeeds.textContent = "Pull weeds";
-  taskPullWeedsCost.textContent = 30;
+  taskPullWeedsCost.textContent = "£30";
   totalCost.push(30);
   console.log(totalCost);
 });
